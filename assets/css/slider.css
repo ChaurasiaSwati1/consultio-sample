@@ -1,0 +1,40 @@
+/* Importing fonts from Google */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.4.1/css/all.min.css');
+
+/* Reseting */
+.owl-carousel .owl-item{
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+.owl-carousel .owl-item .img-card img{
+    height: 350px;
+    /* max-width: 567px; */
+    object-fit: cover;
+    width: 100%;
+    border-radius: 5px;
+}
+.owl-theme .owl-nav [class*='owl-']{
+    background-color: #3e3e3e !important;
+    color: #3e3e3e !important;
+    width: 30px;
+    overflow: hidden;
+    height: 30px;
+    position: relative;
+    border-radius: 50% !important;
+
+}
+.owl-theme .owl-nav .owl-prev::before{
+    content: "<";
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1.25;
+    display: block;
+}
+.owl-theme .owl-nav .owl-next::before{
+    content: ">";
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1.25;
+    display: block;
+}
